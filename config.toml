@@ -1,0 +1,50 @@
+# Prototype Network Documentation
+base_url = "http://65.108.94.1"
+title = "Prototype Network"
+description = "Next-generation blockchain with ProtoBFT consensus"
+theme = "goyo"
+
+build_search_index = true
+default_language = "en"
+generate_feeds = false
+generate_sitemap = true
+
+taxonomies = [
+    { name = "tags", paginate_by = 10 },
+]
+
+[markdown]
+bottom_footnotes = true
+
+[markdown.highlighting]
+theme = "github-dark"
+
+[extra]
+footer_html = "<span>Powered by <a href='https://www.getzola.org'>Zola</a> • Built by <a href='https://github.com/prototype-ecosystem'>Prototype Community</a></span>"
+
+nav = [
+    { name = "Docs", url = "/docs", type = "url", icon = "fa-solid fa-book" },
+    { name = "Proto Core", url = "/docs/protocore", type = "url", icon = "fa-solid fa-cube" },
+    { name = "Architecture", url = "/docs/architecture", type = "url", icon = "fa-solid fa-sitemap" },
+    { name = "GitHub", url = "https://github.com/prototype-ecosystem", type = "url", icon = "fa-brands fa-github" },
+]
+
+# Logo Configuration
+[extra.logo]
+text = "Prototype Network"
+
+# Theme Configuration - Dark mode only
+[extra.theme]
+colorset = "dark"
+brightness = "normal"
+disable_toggle = true  # Hide theme toggle - dark only
+
+# Sidebar Configuration
+[extra.sidebar]
+expand_depth = 2
+disable_root_hide = false
+
+# Disable share buttons
+[extra.share]
+copy_url = false
+x = false
