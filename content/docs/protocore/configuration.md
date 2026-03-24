@@ -14,8 +14,7 @@ name = "my-node"
 data_dir = "./data"
 
 [network]
-chain_id = 1
-network_id = 1
+chain_id = 31337
 
 [p2p]
 listen_addr = "/ip4/0.0.0.0/tcp/30303"

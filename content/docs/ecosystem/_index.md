@@ -18,7 +18,7 @@ Block explorer for Prototype Network.
 - Network statistics
 
 **Links:**
-- Live: http://65.108.94.1:3000
+- Live: http://65.108.94.1:8080
 
 ## ProtoWallet
 

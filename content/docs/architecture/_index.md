@@ -5,7 +5,7 @@ weight = 2
 sort_by = "weight"
 +++
 
-Proto Core uses a modular architecture with 14 specialized Rust crates.
+Proto Core uses a modular architecture with 13 specialized Rust crates.
 
 ## Overview
 
@@ -48,9 +48,14 @@ Proto Core uses a modular architecture with 14 specialized Rust crates.
 | `privacy` | Stealth addresses |
 | `cli` | CLI tool |
 
+## Addressing
+
+Prototype uses **EVM-native addressing only** (0x-prefixed hex). No bech32 or Cosmos-style addresses. Fully compatible with MetaMask and standard Ethereum tooling.
+
 ## Design Principles
 
 - **Modularity** - Single responsibility per crate
 - **Performance** - Async I/O, parallel execution
 - **Safety** - Rust memory safety, comprehensive errors
+- **Determinism** - RLP encoding, BTreeMap ordering for identical state roots across nodes
 - **Extensibility** - Plugin architecture

@@ -53,7 +53,7 @@ Update `protocore.toml` with bootnodes:
 ```toml
 [p2p]
 bootnodes = [
-    "/ip4/192.168.1.1/tcp/30303/p2p/12D3KooW...",
+    "/ip4/95.216.154.155/tcp/30303/p2p/12D3KooW...",
 ]
 ```
 

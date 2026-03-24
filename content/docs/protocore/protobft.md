@@ -47,6 +47,6 @@ validator = true
 validator_key = "/path/to/key"
 
 [consensus.protobft]
-block_time = 2000  # ms
+block_time_ms = 6000
 finality_depth = 2
 ```
